@@ -2,6 +2,10 @@
 
 # Pow
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FEmergeTools%2FPow%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/EmergeTools/Pow)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FEmergeTools%2FPow%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/EmergeTools/Pow)
+[![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.emergetools.com%2Fapi%2Fv2%2Fpublic_new_build%3FexampleId%3Dpow.Pow%26platform%3Dios%26badgeOption%3Dversion_and_max_install_size%26buildType%3Drelease&query=$.badgeMetadata&label=Pow&logo=apple)](https://www.emergetools.com/app/example/ios/pow.Pow/release?utm_campaign=badge-data)
+
 Delightful SwiftUI effects for your app. 
 
 [Check out other open source projects from Emerge Tools](https://www.emergetools.com/open-source)
@@ -216,7 +220,7 @@ static func shine(angle: Angle, duration: Double = 1.0) -> AnyChangeEffect
 
 Triggers a sound effect as feedback whenever a value changes.
 
-This effect will not interrupt or duck any other audio that may currently playing. It may also not triggered based on the setting of the user's silent switch or playback device.
+This effect will not interrupt or duck any other audio that may be currently playing. This effect is not guaranteed to be triggered; the effect running depends on the user's silent switch position and the current playback device.
 
 To relay important information to the user, you should always accompany audio effects with visual cues.
 
